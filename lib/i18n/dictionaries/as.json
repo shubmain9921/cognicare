@@ -1,0 +1,200 @@
+{
+  "common": {
+    "appName": "CogniCare",
+    "signOut": "প্ৰস্থান কৰক (Sign Out)",
+    "signIn": "ছাইন ইন (Sign In)",
+    "back": "উভতি যাওক",
+    "loading": "লোড হৈ আছে...",
+    "completed": "সম্পূৰ্ণ হ'ল",
+    "markDone": "সম্পূৰ্ণ বুলি চিহ্নিত কৰক",
+    "daily": "দৈনিক",
+    "level": "স্তৰ",
+    "adaptive": "অনুকূলী",
+    "patientCode": "ৰোগীৰ ক'ড",
+    "play": "খেলক",
+    "playActivity": "কাৰ্য আৰম্ভ কৰক",
+    "playAgain": "পুনৰ খেলক",
+    "otherGames": "অন্যান্য খেল",
+    "sessionCompleted": "সত্ৰ সম্পূৰ্ণ হ'ল!",
+    "accuracy": "সঠিকতা",
+    "avgSpeed": "গড় গতি",
+    "mistakes": "ভুল",
+    "difficultyLevel": "কঠিনতাৰ স্তৰ",
+    "statsRecorded": "তথ্য সংৰক্ষণ কৰা হ'ল",
+    "greatWork": "স্মৃতি চৰ্চা সুন্দৰ হৈছে",
+    "adaptiveFootnote": "CogniCare • আপোনাৰ গতি অনুসৰি কঠিনতা স্বয়ংক্ৰিয়ভাৱে সলনি হয়",
+    "offlineBanner": "অফলাইন — ফলাফল পিছত সংৰক্ষণ হ'ব",
+    "syncing": "ফলাফল সংৰক্ষণ হৈ আছে...",
+    "syncedSuccess": "✓ {count} টা খেল সফলভাৱে সংৰক্ষণ হ'ল!"
+  },
+  "home": {
+    "greeting": "নমস্কাৰ, {name}!",
+    "brainGames": "স্মৃতি খেল",
+    "todaySchedule": "আজিৰ সূচী আৰু ৰিমাইণ্ডাৰ",
+    "noTasksScheduled": "আজি কোনো কাৰ্যসূচী নাই।",
+    "allTasksCompleted": "🎉 সুন্দৰ! আজিৰ সকলো কাৰ্য সম্পূৰ্ণ হ'ল।",
+    "remainingReminders": "আজি {count} টা ৰিমাইণ্ডাৰ বাকী আছে।",
+    "nothingOnSchedule": "আজি কোনো ৰিমাইণ্ডাৰ নাই!",
+    "enjoyYourDay": "আজিৰ দিনটো সুখেৰে উপভোগ কৰক!"
+  },
+  "gamesHub": {
+    "title": "স্মৃতি ক্ৰিয়া আৰু খেল",
+    "subtitle": "{name} ৰ বাবে ব্যক্তিগত অনুশীলন",
+    "dailySchedule": "← দৈনিক সূচী",
+    "personalizedSectionTitle": "ব্যক্তিগত স্মৃতি খেল",
+    "personalizedSectionDesc": "এই খেলবোৰত আপোনাৰ পৰিয়াল আৰু চিনাকি ঠাই ব্যৱহাৰ কৰা হয়।",
+    "coreSectionTitle": "মূল স্মৃতি খেল",
+    "coreSectionDesc": "একাগ্ৰতা আৰু দৃষ্টি স্মৰণৰ বাবে আমোদজনক খেল।",
+    "personalizedBadge": "ব্যক্তিগত স্মৃতি",
+    "coreBadge": "মূল খেল",
+    "footer": "CogniCare • স্মৃতি আৰু মানসিক স্বাস্থ্য পোৰ্টেল"
+  },
+  "games": {
+    "rememberObjects": {
+      "title": "বস্তুবোৰ মনত ৰাখক",
+      "category": "মূল খেল",
+      "description": "বস্তুবোৰ কিছু সময় মনযোগ দি চাওক আৰু পিছত চিনাক্ত কৰক।",
+      "instruction": "আপুনি {seconds} ছেকেণ্ডৰ বাবে {targetCount} টা বস্তু দেখিব। মনত ৰাখিবলৈ চেষ্টা কৰক!",
+      "memorizeHeader": "🧠 এই {count} টা বস্তু মনত ৰাখক!",
+      "recallHeader": "আপুনি কি কি বস্তু দেখিছিল?",
+      "selectedCount": "বাছনি: {selected} / {total}",
+      "tapToSelect": "বাছনি কৰিবলৈ টিপক",
+      "selectedBadge": "✓ বাছনি হ'ল",
+      "submit": "উত্তৰ দাখিল কৰক ({count} টা বাছনি)",
+      "items": {
+        "apple": "আপেল",
+        "bicycle": "চাইকেল",
+        "dog": "কুকুৰ পোৱালি",
+        "soccer": "ফুটবল",
+        "guitar": "গिटাৰ",
+        "flower": "বেল ফুল",
+        "car": "গাড়ী",
+        "hat": "টুপি",
+        "coffee": "চা/কফি",
+        "clock": "ঘড়ী",
+        "book": "কিতাপ",
+        "tree": "গছ",
+        "cat": "মেকুৰী",
+        "house": "ঘৰ",
+        "phone": "ফোন",
+        "star": "তৰা"
+      }
+    },
+    "sequenceRecall": {
+      "title": "ক্ৰম স্মৰণ",
+      "category": "মূল খেল",
+      "description": "ৰং আৰু স্থানৰ ক্ৰম মনত ৰাখি একেদৰে টিপক।",
+      "instruction": "ৰংবোৰ ক্ৰমান্বয়ে জ্বলি উঠা চাওক আৰু ঠিক একে ক্ৰমতে টিপক ({length} টা ধাপ)।",
+      "watchPrompt": "👀 ক্ৰমটো মনযোগ দি চাওক...",
+      "playerPrompt": "👉 আপোনাৰ পাল! {total} ৰ ভিতৰত {current} ধাপ টিপক",
+      "tiles": {
+        "red": "ৰঙা (আপেল)",
+        "blue": "নীলা (পানী)",
+        "green": "সেউজীয়া (পাত)",
+        "yellow": "হলধীয়া (বেল)"
+      }
+    },
+    "findPair": {
+      "title": "যোৰ বিচাৰি উলিয়াওক",
+      "category": "মূল খেল",
+      "description": "কাৰ্ডবোৰ ওলোটাই একেধৰণৰ যোৰ মিলাওক।",
+      "instruction": "কাৰ্ড টিপি ওলোটাওক আৰু সকলো {pairs} যোৰ মিলাওক!",
+      "matchedHeader": "মিলা যোৰ: {matched} / {total}",
+      "mistakesHeader": "ভুল: {count}",
+      "symbols": {
+        "sun": "বেল",
+        "heart": "হৃদয়",
+        "flower": "ফুল",
+        "tree": "গছ",
+        "star": "তৰা",
+        "bell": "ঘণ্টি",
+        "apple": "আপেল",
+        "bird": "চৰাই"
+      }
+    },
+    "whatChanged": {
+      "title": "কি সলনি হ'ল?",
+      "category": "মূল খেল",
+      "description": "দৃশ্যটো চাওক আৰু কোনটো বস্তু সলনি হ'ল চিনাক্ত কৰক।",
+      "instruction": "{count} টা বস্তু মনযোগ দি চাওক। আমি এটা বস্তু সলনি কৰিম। চিনাক্ত কৰিব পাৰিবনে?",
+      "memorizeHeader": "📸 দৃশ্যটো মনত ৰাখক!",
+      "shufflingHeader": "সলনি কৰা হৈ আছে...",
+      "shufflingSub": "এটা বস্তু সলনি হৈছে!",
+      "identifyHeader": "👉 যিটো বস্তু সলনি হ'ল বা নতুনকৈ আহিল তাত টিপক!",
+      "tapIfChanged": "টিপি বাছনি কৰক",
+      "successBanner": "✨ আপুনি সঠিক উত্তৰ দিলে! {oldEmoji} {oldLabel} ৰ ঠাইত {newEmoji} {newLabel} আহিল!",
+      "items": {
+        "lamp": "চাকি/লেম্প",
+        "cup": "চাহৰ কাপ",
+        "plant": "টবৰ গছ",
+        "chair": "চকী",
+        "clock": "ঘড়ী",
+        "painting": "ছবি",
+        "cat": "মেকুৰী",
+        "book": "কিতাপ",
+        "telephone": "ফোন",
+        "guitar": "গिटাৰ",
+        "flower": "ফুলদানী",
+        "teapot": "চাহদানী"
+      }
+    },
+    "storyRecall": {
+      "title": "সাধু স্মৰণ",
+      "category": "ব্যক্তিগত স্মৃতি",
+      "description": "আপোনাৰ পৰিয়াল আৰু স্মৃতিৰে তৈয়াৰী চুটি সাধু এটা শুনি প্ৰশ্নৰ উত্তৰ দিয়ক।",
+      "readTitle": "আজিৰ স্মৃতি সাধু পঢ়ক",
+      "readSubtitle": "মনযোগ দি পঢ়ক! ইয়াৰ পিছত প্ৰশ্ন সোধা হ'ব।",
+      "readyButton": "মই প্ৰস্তুত! প্ৰশ্ন সোধক →",
+      "questionHeader": "প্ৰশ্ন {current} / {total}",
+      "loadingTitle": "আপোনাৰ সাধু প্ৰস্তুত হৈ আছে...",
+      "loadingDesc": "স্মৃতি আৰু মানুহৰ তথ্য সংগ্ৰহ কৰা হৈছে।",
+      "needMoreTitle": "আৰু স্মৃতিৰ প্ৰয়োজন",
+      "needMoreDesc": "সাধু স্মৰণ খেলৰ বাবে অতি কমেও ৩ টা স্মৃতি সংৰক্ষণ থাকিব লাগিব। বৰ্তমান {count} / 3 টা সংৰক্ষণ আছে।",
+      "needMoreTip": "💡 অনুগ্ৰহ কৰি আপোনাৰ যত্নলোৱাজনক (Caregiver) স্মৃতি যোগ কৰিবলৈ কওক।",
+      "backToGames": "← খেলসমূহলৈ ঘূৰি যাওক"
+    },
+    "dailyRoutineRecall": {
+      "title": "দৈনিক ৰুটিন স্মৰণ",
+      "category": "ব্যক্তিগত স্মৃতি",
+      "description": "আপোনাৰ নিয়মীয়াকৈ কৰা কাম আৰু ঔষধৰ সময় পৰীক্ষা কৰক।",
+      "questionHeader": "প্ৰশ্ন {current} / {total}",
+      "badge": "দৈনিক নিয়ম",
+      "loadingTitle": "দৈনিক ৰুটিন লোড হৈ আছে...",
+      "loadingDesc": "প্ৰশ্ন প্ৰস্তুত কৰা হৈছে।",
+      "needMoreTitle": "দৈনিক ৰুটিনৰ প্ৰয়োজন",
+      "needMoreDesc": "বৰ্তমান {count} টা ৰিমাইণ্ডাৰ আছে।",
+      "needMoreTip": "💡 অনুগ্ৰহ কৰি আপোনাৰ যত্নলোৱাজনক ৰিমাইণ্ডাৰ যোগ কৰিবলৈ কওক।",
+      "backToGames": "← খেলসমূহলৈ ঘূৰি যাওক"
+    },
+    "whoWhereWhen": {
+      "title": "কোন / ক'ত / কেতিয়া?",
+      "category": "ব্যক্তিগত স্মৃতি",
+      "description": "পৰিয়ালৰ মানুহ আৰু চিনাকি ঠাই মনত ৰাখক।",
+      "questionHeader": "প্ৰশ্ন {current} / {total}",
+      "loadingTitle": "পৰিয়ালৰ তথ্য লোড হৈ আছে...",
+      "loadingDesc": "প্ৰশ্ন প্ৰস্তুত কৰা হৈছে।",
+      "needMoreTitle": "আৰু স্মৃতিৰ প্ৰয়োজন",
+      "needMoreDesc": "বৰ্তমান {count} / 3 টা স্মৃতি সংৰক্ষণ আছে।",
+      "needMoreTip": "💡 অনুগ্ৰহ কৰি যত্নলোৱাজনক স্মৃতি যোগ কৰিবলৈ কওক।",
+      "backToGames": "← খেলসমূহলৈ ঘূৰি যাওক",
+      "badges": {
+        "person": "👤 মানুহ / পৰিয়াল",
+        "place": "📍 চিনাকি ঠাই",
+        "routine": "⏰ দৈনিক নিয়ম",
+        "memory": "💭 স্মৃতি"
+      }
+    }
+  },
+  "caregiver": {
+    "dashboardTitle": "CogniCare যত্নলোৱাজনৰ ডেশ্ববৰ্ড",
+    "loggedInAs": "{name} বুলি ছাইন ইন হৈ আছে",
+    "addNewPatient": "নতুন ৰোগী যোগ কৰক",
+    "patientName": "ৰোগীৰ নাম",
+    "preferredLanguage": "পছন্দৰ ভাষা",
+    "languages": {
+      "en": "English",
+      "hi": "Hindi (हिन्दी)",
+      "as": "Assamese (অসমীয়া)"
+    }
+  }
+}

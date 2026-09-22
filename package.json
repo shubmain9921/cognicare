@@ -1,0 +1,38 @@
+{
+  "name": "cognicare",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run clean && next dev",
+    "clean": "node -e \"const fs=require('fs'); fs.rmSync('.next', {recursive:true, force:true}); console.log('.next cleaned');\"",
+    "build": "npm run clean && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "tsx scripts/seed-demo.ts",
+    "test:ai": "tsx scripts/test-ai-engine.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.22.0",
+    "@supabase/ssr": "^0.12.5",
+    "@supabase/supabase-js": "^2.49.1",
+    "bcryptjs": "^3.0.3",
+    "idb": "^8.0.3",
+    "next": "^14.2.24",
+    "openai": "^7.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.17.19",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^17.4.2",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.23.12",
+    "typescript": "^5.7.3"
+  }
+}
