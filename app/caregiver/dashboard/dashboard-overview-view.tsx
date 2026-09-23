@@ -11,7 +11,6 @@ import {
   RecentActivityItem,
 } from '@/lib/caregiver-dashboard';
 import { SupportiveAIObservation } from '@/lib/ai/gemini';
-import { useI18n } from '@/lib/i18n/context';
 
 interface DashboardOverviewViewProps {
   patient: DemoPatient;
@@ -55,7 +54,6 @@ export default function DashboardOverviewView({
   attentionItems = [],
   recentActivities = [],
 }: DashboardOverviewViewProps) {
-  const { t } = useI18n();
   // Use real calculated overview metrics with graceful fallbacks
   const usage = overview?.todayUsage || dailyUsage;
   const sessionsDone = overview?.todaySessionsCompleted ?? 3;
@@ -135,7 +133,7 @@ export default function DashboardOverviewView({
         <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-2xs space-y-1">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-gray-500">
-              {t('dashboard.dailyUsage')}
+              Daily Activity Usage
             </span>
             <span className="text-xs">⏱️</span>
           </div>
@@ -144,7 +142,7 @@ export default function DashboardOverviewView({
           </p>
           {usage?.isLimitReached ? (
             <span className="inline-block text-[11px] font-bold text-amber-800 bg-amber-100 px-2 py-0.5 rounded-full">
-              {t('safety.limitReachedTitle')}
+              Daily activity limit reached
             </span>
           ) : (
             <p className="text-[11px] text-emerald-600 font-medium">Within daily guardrail</p>
@@ -167,7 +165,7 @@ export default function DashboardOverviewView({
         <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-2xs space-y-1">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-gray-400">
-              {t('dashboard.weeklyAverage')}
+              Weekly Average
             </span>
             <span className="text-xs">📈</span>
           </div>
@@ -178,7 +176,7 @@ export default function DashboardOverviewView({
         <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-2xs space-y-1">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-gray-400">
-              {t('dashboard.reminderAdherence')}
+              Reminder Adherence
             </span>
             <span className="text-xs">🔔</span>
           </div>
@@ -189,7 +187,7 @@ export default function DashboardOverviewView({
         <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-2xs space-y-1">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-gray-400">
-              {t('dashboard.patientStatus')}
+              Patient Status
             </span>
             <span className="text-xs">👤</span>
           </div>
@@ -214,7 +212,7 @@ export default function DashboardOverviewView({
           <div>
             <div className="flex items-center gap-2">
               <h2 className="text-base font-bold text-gray-900">
-                {t('dashboard.aiObservations')} ({patient.name})
+                Supportive AI Observations ({patient.name})
               </h2>
               <span className="text-[10px] bg-blue-100 text-blue-800 font-bold px-2 py-0.5 rounded-full">
                 Non-Diagnostic

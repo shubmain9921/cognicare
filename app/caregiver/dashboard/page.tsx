@@ -25,7 +25,6 @@ import { getDailyCognitiveUsage } from '@/lib/safety-limits';
 import { getCaregiverDashboardData } from '@/lib/caregiver-dashboard';
 import { getDictionary, t } from '@/lib/i18n';
 import { I18nProvider } from '@/lib/i18n/context';
-import { CaregiverHeaderLanguageSwitcher } from '@/components/language-switcher';
 
 export const dynamic = 'force-dynamic';
 
@@ -93,10 +92,7 @@ export default async function CaregiverDashboardPage({
                   CogniCare <span className="text-emerald-700 font-semibold text-xs ml-1">Caregiver Portal</span>
                 </h1>
                 <p className="text-[11px] text-gray-500">
-                  Caregiver: <strong>{caregiver.name}</strong> • Portal Language:{' '}
-                  <span className="uppercase font-semibold text-emerald-700">
-                    {caregiver.preferred_language}
-                  </span>
+                  Caregiver: <strong>{caregiver.name}</strong>
                 </p>
               </div>
             </div>
@@ -110,7 +106,6 @@ export default async function CaregiverDashboardPage({
                   />
                 </div>
               )}
-              <CaregiverHeaderLanguageSwitcher />
               <form action={caregiverLogout}>
                 <button
                   type="submit"
@@ -402,8 +397,7 @@ export default async function CaregiverDashboardPage({
                 CogniCare <span className="text-emerald-700 font-semibold text-xs ml-1">Caregiver Portal</span>
               </h1>
               <p className="text-[11px] text-gray-500">
-                Caregiver: <strong>{cgName}</strong> • Portal Language:{' '}
-                <span className="uppercase font-semibold text-emerald-700">{cgLang}</span>
+                Caregiver: <strong>{cgName}</strong>
               </p>
             </div>
           </div>
@@ -417,7 +411,6 @@ export default async function CaregiverDashboardPage({
                 />
               </div>
             )}
-            <CaregiverHeaderLanguageSwitcher />
             <form action={caregiverLogout}>
               <button
                 type="submit"

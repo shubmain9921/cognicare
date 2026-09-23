@@ -4,8 +4,6 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { caregiverLogout } from '@/app/actions/auth';
 
-import { useI18n } from '@/lib/i18n/context';
-
 interface SidebarProps {
   activeTab: string;
   patientId?: string;
@@ -24,49 +22,48 @@ export default function CaregiverSidebar({
   totalPatients,
 }: SidebarProps) {
   const searchParams = useSearchParams();
-  const { t } = useI18n();
   const currentPatientId = patientId || searchParams.get('patientId') || '';
 
   const navItems = [
     {
       id: 'dashboard',
-      label: t('dashboard.overview'),
+      label: 'Overview',
       icon: '🏠',
       description: "Today's summary & AI insights",
     },
     {
       id: 'patients',
-      label: t('dashboard.myPatients'),
+      label: 'My Patients',
       icon: '👥',
       description: 'Profiles & relationships',
     },
     {
       id: 'reminders',
-      label: t('dashboard.routines'),
+      label: 'Routines & Reminders',
       icon: '🔔',
       description: 'My Day schedule & adherence',
     },
     {
       id: 'memory-bank',
-      label: t('dashboard.memoryBank'),
+      label: 'Memory Bank',
       icon: '❤️',
       description: 'People, places & lifecycle',
     },
     {
       id: 'activities',
-      label: t('dashboard.activities'),
+      label: 'Activities',
       icon: '🧠',
       description: 'Quotas, preferences & focus',
     },
     {
       id: 'reports',
-      label: t('dashboard.reports'),
+      label: 'Weekly Reports',
       icon: '📊',
       description: 'Weekly summaries & trends',
     },
     {
       id: 'settings',
-      label: t('dashboard.settings'),
+      label: 'Settings',
       icon: '⚙️',
       description: 'Languages & accessibility',
     },
