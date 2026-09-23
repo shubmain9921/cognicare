@@ -36,7 +36,7 @@
           "relationship": "Daughter"
         }
       ],
-      "last_active_at": "2026-09-20T08:02:53.849Z",
+      "last_active_at": "2026-09-23T13:40:21.865Z",
       "created_at": "2026-01-15T09:00:00.000Z"
     }
   ],
@@ -155,15 +155,15 @@
       "type": "recurring",
       "title": "Daily Blood Pressure Medicine",
       "description": "Take with half glass of water after breakfast",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Every day @ 9:00 AM",
       "is_done": true,
       "voice_enabled": true,
       "notification_enabled": true,
       "memory_prompt_enabled": true,
       "status": "acknowledged",
-      "acknowledged_at": "2026-09-20T05:27:53.933Z",
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "acknowledged_at": "2026-09-23T11:05:21.944Z",
+      "created_at": "2026-09-23T14:05:21.944Z"
     },
     {
       "id": "demo-rem-2",
@@ -171,15 +171,15 @@
       "type": "recurring",
       "title": "Morning Hydration Check-in",
       "description": "Drink warm water with lemon",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Every morning @ 8:30 AM",
       "is_done": true,
       "voice_enabled": false,
       "notification_enabled": true,
       "memory_prompt_enabled": false,
       "status": "acknowledged",
-      "acknowledged_at": "2026-09-20T04:27:53.933Z",
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "acknowledged_at": "2026-09-23T10:05:21.944Z",
+      "created_at": "2026-09-23T14:05:21.944Z"
     },
     {
       "id": "demo-rem-3",
@@ -187,7 +187,7 @@
       "type": "recurring",
       "title": "Morning Walk in Garden",
       "description": "Light exercise and fresh air",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Mon–Fri @ 10:00 AM",
       "is_done": false,
       "voice_enabled": true,
@@ -195,7 +195,7 @@
       "memory_prompt_enabled": true,
       "status": "postponed",
       "acknowledged_at": null,
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "created_at": "2026-09-23T14:05:21.944Z"
     },
     {
       "id": "demo-rem-4",
@@ -203,15 +203,15 @@
       "type": "recurring",
       "title": "Morning Breakfast & Porridge",
       "description": "Nutritious breakfast prepared by caregiver",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Daily @ 8:00 AM",
       "is_done": true,
       "voice_enabled": true,
       "notification_enabled": true,
       "memory_prompt_enabled": false,
       "status": "acknowledged",
-      "acknowledged_at": "2026-09-20T03:27:53.933Z",
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "acknowledged_at": "2026-09-23T09:05:21.944Z",
+      "created_at": "2026-09-23T14:05:21.944Z"
     },
     {
       "id": "demo-rem-5",
@@ -219,15 +219,15 @@
       "type": "recurring",
       "title": "Mid-Morning Fruit Snack",
       "description": "Fresh papaya or sliced apple",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Daily @ 11:30 AM",
       "is_done": true,
       "voice_enabled": false,
       "notification_enabled": true,
       "memory_prompt_enabled": false,
       "status": "acknowledged",
-      "acknowledged_at": "2026-09-20T06:27:53.933Z",
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "acknowledged_at": "2026-09-23T12:05:21.944Z",
+      "created_at": "2026-09-23T14:05:21.944Z"
     },
     {
       "id": "demo-rem-6",
@@ -235,15 +235,15 @@
       "type": "recurring",
       "title": "Vitamin D & Calcium Drops",
       "description": "Take 4 drops after lunch",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Daily @ 1:30 PM",
       "is_done": true,
       "voice_enabled": true,
       "notification_enabled": true,
       "memory_prompt_enabled": true,
       "status": "acknowledged",
-      "acknowledged_at": "2026-09-20T07:27:53.933Z",
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "acknowledged_at": "2026-09-23T13:05:21.944Z",
+      "created_at": "2026-09-23T14:05:21.944Z"
     },
     {
       "id": "demo-rem-7",
@@ -251,15 +251,15 @@
       "type": "recurring",
       "title": "Warm Lunch Routine",
       "description": "Healthy khichdi or chapati with dal",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Daily @ 1:00 PM",
       "is_done": true,
       "voice_enabled": true,
       "notification_enabled": true,
       "memory_prompt_enabled": false,
       "status": "acknowledged",
-      "acknowledged_at": "2026-09-20T06:57:53.933Z",
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "acknowledged_at": "2026-09-23T12:35:21.944Z",
+      "created_at": "2026-09-23T14:05:21.944Z"
     },
     {
       "id": "demo-rem-8",
@@ -267,15 +267,15 @@
       "type": "recurring",
       "title": "Afternoon Rest & Quiet Time",
       "description": "30-minute peaceful nap in quiet bedroom",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Daily @ 2:30 PM",
       "is_done": true,
       "voice_enabled": false,
       "notification_enabled": true,
       "memory_prompt_enabled": false,
       "status": "acknowledged",
-      "acknowledged_at": "2026-09-20T07:27:53.933Z",
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "acknowledged_at": "2026-09-23T13:05:21.944Z",
+      "created_at": "2026-09-23T14:05:21.944Z"
     },
     {
       "id": "demo-rem-9",
@@ -283,15 +283,15 @@
       "type": "recurring",
       "title": "Afternoon Hydration",
       "description": "Glass of warm coconut water",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Daily @ 3:30 PM",
       "is_done": true,
       "voice_enabled": false,
       "notification_enabled": true,
       "memory_prompt_enabled": false,
       "status": "acknowledged",
-      "acknowledged_at": "2026-09-20T07:47:53.933Z",
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "acknowledged_at": "2026-09-23T13:25:21.944Z",
+      "created_at": "2026-09-23T14:05:21.944Z"
     },
     {
       "id": "demo-rem-10",
@@ -299,15 +299,15 @@
       "type": "recurring",
       "title": "Evening Herbal Tea with Rahul",
       "description": "Cup of tulsi tea and pleasant conversation",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Daily @ 5:00 PM",
       "is_done": true,
       "voice_enabled": true,
       "notification_enabled": true,
       "memory_prompt_enabled": true,
       "status": "acknowledged",
-      "acknowledged_at": "2026-09-20T08:07:53.933Z",
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "acknowledged_at": "2026-09-23T13:45:21.944Z",
+      "created_at": "2026-09-23T14:05:21.944Z"
     },
     {
       "id": "demo-rem-11",
@@ -315,15 +315,15 @@
       "type": "recurring",
       "title": "Cognitive Game & Memory Time",
       "description": "Play Remember the Objects or Story Recall",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Daily @ 11:00 AM",
       "is_done": true,
       "voice_enabled": true,
       "notification_enabled": true,
       "memory_prompt_enabled": true,
       "status": "acknowledged",
-      "acknowledged_at": "2026-09-20T05:27:53.933Z",
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "acknowledged_at": "2026-09-23T11:05:21.944Z",
+      "created_at": "2026-09-23T14:05:21.944Z"
     },
     {
       "id": "demo-rem-12",
@@ -331,15 +331,15 @@
       "type": "recurring",
       "title": "Family Video Call with Priya & Aarav",
       "description": "Weekly video catch-up with daughter and grandson",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Sat & Sun @ 6:00 PM",
       "is_done": true,
       "voice_enabled": true,
       "notification_enabled": true,
       "memory_prompt_enabled": true,
       "status": "acknowledged",
-      "acknowledged_at": "2026-09-20T08:17:53.933Z",
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "acknowledged_at": "2026-09-23T13:55:21.944Z",
+      "created_at": "2026-09-23T14:05:21.944Z"
     },
     {
       "id": "demo-rem-13",
@@ -347,15 +347,15 @@
       "type": "recurring",
       "title": "Evening Dinner Routine",
       "description": "Light soup and vegetable khichdi",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Daily @ 7:30 PM",
       "is_done": true,
       "voice_enabled": true,
       "notification_enabled": true,
       "memory_prompt_enabled": false,
       "status": "acknowledged",
-      "acknowledged_at": "2026-09-20T08:22:53.933Z",
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "acknowledged_at": "2026-09-23T14:00:21.944Z",
+      "created_at": "2026-09-23T14:05:21.944Z"
     },
     {
       "id": "demo-rem-14",
@@ -363,15 +363,15 @@
       "type": "recurring",
       "title": "Night Medicine & Bedtime Relaxation",
       "description": "Sleep aid & glass of warm milk",
-      "scheduled_time": "2026-09-20T08:27:53.933Z",
+      "scheduled_time": "2026-09-23T14:05:21.944Z",
       "recurrence_rule": "Daily @ 9:30 PM",
       "is_done": true,
       "voice_enabled": true,
       "notification_enabled": true,
       "memory_prompt_enabled": true,
       "status": "acknowledged",
-      "acknowledged_at": "2026-09-20T08:25:53.933Z",
-      "created_at": "2026-09-20T08:27:53.933Z"
+      "acknowledged_at": "2026-09-23T14:03:21.944Z",
+      "created_at": "2026-09-23T14:05:21.944Z"
     }
   ],
   "memories": [
@@ -457,7 +457,7 @@
       "duration_seconds": 900,
       "mistakes": 1,
       "completed": true,
-      "played_at": "2026-09-20T04:27:53.933Z"
+      "played_at": "2026-09-23T10:05:21.944Z"
     },
     {
       "id": "demo-session-today-2",
@@ -469,7 +469,7 @@
       "duration_seconds": 900,
       "mistakes": 1,
       "completed": true,
-      "played_at": "2026-09-20T06:27:53.933Z"
+      "played_at": "2026-09-23T12:05:21.944Z"
     },
     {
       "id": "demo-session-today-3",
@@ -481,7 +481,7 @@
       "duration_seconds": 720,
       "mistakes": 0,
       "completed": true,
-      "played_at": "2026-09-20T07:57:53.933Z"
+      "played_at": "2026-09-23T13:35:21.944Z"
     },
     {
       "id": "demo-session-cw-4",
@@ -493,7 +493,7 @@
       "duration_seconds": 600,
       "mistakes": 2,
       "completed": true,
-      "played_at": "2026-09-14T05:00:00.000Z"
+      "played_at": "2026-09-21T05:00:00.000Z"
     },
     {
       "id": "demo-session-cw-5",
@@ -505,7 +505,7 @@
       "duration_seconds": 600,
       "mistakes": 3,
       "completed": true,
-      "played_at": "2026-09-15T06:00:00.000Z"
+      "played_at": "2026-09-22T06:00:00.000Z"
     },
     {
       "id": "demo-session-cw-6",
@@ -517,7 +517,7 @@
       "duration_seconds": 600,
       "mistakes": 1,
       "completed": true,
-      "played_at": "2026-09-16T09:00:00.000Z"
+      "played_at": "2026-09-22T09:00:00.000Z"
     },
     {
       "id": "demo-session-pw-1",
@@ -529,7 +529,7 @@
       "duration_seconds": 600,
       "mistakes": 2,
       "completed": true,
-      "played_at": "2026-09-08T04:30:00.000Z"
+      "played_at": "2026-09-15T04:30:00.000Z"
     },
     {
       "id": "demo-session-pw-2",
@@ -541,7 +541,7 @@
       "duration_seconds": 600,
       "mistakes": 3,
       "completed": true,
-      "played_at": "2026-09-09T05:30:00.000Z"
+      "played_at": "2026-09-16T05:30:00.000Z"
     },
     {
       "id": "demo-session-pw-3",
@@ -553,7 +553,7 @@
       "duration_seconds": 600,
       "mistakes": 1,
       "completed": true,
-      "played_at": "2026-09-10T08:30:00.000Z"
+      "played_at": "2026-09-17T08:30:00.000Z"
     },
     {
       "id": "demo-session-pw-4",
@@ -565,7 +565,7 @@
       "duration_seconds": 600,
       "mistakes": 2,
       "completed": true,
-      "played_at": "2026-09-11T09:30:00.000Z"
+      "played_at": "2026-09-18T09:30:00.000Z"
     },
     {
       "id": "demo-session-pw-5",
@@ -577,7 +577,7 @@
       "duration_seconds": 600,
       "mistakes": 2,
       "completed": true,
-      "played_at": "2026-09-12T04:30:00.000Z"
+      "played_at": "2026-09-19T04:30:00.000Z"
     }
   ]
 }
